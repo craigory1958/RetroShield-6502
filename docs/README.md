@@ -6,7 +6,7 @@
 
 ---
 
-[*8-Bit Force*](https://8bitforce.com/) produces carrier boards for various microprocessors.  The microprocessor of choice mounts on the corresponding RetroShield and the RetroShield plugs into a bank of DIO pins on the Arduino Mega 2560 board. 
+[*8-Bit Force*](https://8bitforce.com/) produces carrier boards for various microprocessors.  The microprocessor of choice mounts on the corresponding RetroShield and the RetroShield plugs into a bank of GPIO pins on the Arduino Mega 2560 board. 
 The Arduino emulates all memory, I/O, and control signels needed by the MPU/CPU. [*8-Bit Force*](https://8bitforce.com/) provides emulations of an Apple I, Commodore 64, and KIM 1 and uses a *LCD Display/Keypad Shield* to interact with the emulations.
 
 
@@ -38,6 +38,8 @@ Monitoring the CLK (CH1) and SYNC (CH2) signals while executing JMP program.
 # RetroShield Carrier
 
 
-The `RetroShield Carrier` seurly holds a Arduino Mega 2560, with a RetroShield 6502, and a 630 tie-point solderless breadboard.
+The `RetroShield Carrier` securely holds an Arduino Mega 2560, with a RetroShield 6502, and a 630 tie-point solderless breadboard.
 
 <img src="_assets/images/RetroShield Carrier.png">
+<br/>
+<img src="_assets/images/RetroShield 6502.jpg">
